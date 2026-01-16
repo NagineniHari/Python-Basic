@@ -17,3 +17,15 @@ print(division)
 print(floor_division)
 print(remainders)
 print(remainder)
+
+c = 2
+d =3 
+
+e=9
+
+power = c ** d
+print(power)
+
+e=225
+squre_root = e ** .5
+print(squre_root)
