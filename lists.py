@@ -66,3 +66,6 @@ print(servers.index(False))
 
 servers.insert(0,10)
 print(servers)
+
+servers.remove(False)
+print(servers)
