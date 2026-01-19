@@ -25,3 +25,10 @@ simple_step_slice = servers[0:9:2]  ## step sizes  1, 1+2, 3+2, 5+2, 7+2
 simple_step_slice = servers[-1:-3:-1]
 ### print(simple_step_slice)
 
+servers = ['192.168.145.23','192.168.145.24','192.168.145.25','123456','192.168.145.26','192.168.145.27','192.168.145.28','192.168.145.29']
+simple_slice = servers[3:]
+print(simple_slice)
+simple_slice = servers[:5]
+print(simple_slice)
+simple_slice = servers[:]
+print(simple_slice)
