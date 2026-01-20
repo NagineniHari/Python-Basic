@@ -1,4 +1,4 @@
-sample = "Hello, How are you doing ,how is devops course"
+sample = "Hello, How are you doing ,how is devops course is any thing PENDING STATUS"
 sample_1 ="abc" ## ("a","b","c")
 # print(sample[8])
 # print(sample_1[0])
@@ -13,3 +13,24 @@ sample_1 ="abc" ## ("a","b","c")
  'translate', 'upper', 'zfill'
 
 """
+
+print(sample.casefold()) ## change all small letters in the string
+
+print(sample.center(100))
+
+print(sample.center(100,"#"))
+
+
+## Reverse String 
+
+print(sample[::-1])  ## it's show the reverse string
+print(tuple(sample_1), list(sample_1))
+
+sample = "Hello, How are you doing ,how is devops course is any thing PENDING STATUS"
+print(sample.split(" "))
+
+print("#".join(sample.split(" ")))
+
+## concatenations   joining 2 strings
+
+print("a"+"b")
