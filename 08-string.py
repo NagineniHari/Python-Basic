@@ -34,3 +34,11 @@ print("#".join(sample.split(" ")))
 ## concatenations   joining 2 strings
 
 print("a"+"b")
+
+
+## How do you print a file path
+# print("D:\DevOps\daws-86s\Project-Repo\Python-Basic\08-string.py")
+
+# print(r"D:\DevOps\daws-86s\Project-Repo\Python-Basic\08-string.py")
+
+# print(r"D:\\DevOps\\daws-86s\\Project-Repo\\Python-Basic\\08-string.py")
