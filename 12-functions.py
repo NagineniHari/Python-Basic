@@ -46,8 +46,15 @@ def calc(a, b, operation):
         return a * b
     if operation == "div" :
         return a % b
-values = tuple(input(" Enter two numbers: "))
+    
+def  sample(var):
+     return int(var) + 1
+
+# values = input(" Enter two numbers: ").split()
+## values = list(map(sample,input(" Enter two numbers: ").split()))
+a, b = tuple(map(int, input(" Enter two numbers: ").split()))
+print(a, b)
 operation = input( "Enter operation to perform(add,sub.mult,div): ")
-print(values)
-map(values, int)
-res = calc(values, operation)
+ ## map(values, int)
+res = calc(a, b, operation)
+print(res)
